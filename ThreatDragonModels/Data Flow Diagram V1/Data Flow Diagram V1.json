@@ -1,0 +1,26 @@
+{
+  "version": "2.2.0",
+  "summary": {
+    "title": "Data Flow Diagram V1",
+    "owner": "Peter Haidt, Jana Farag",
+    "description": "Data Flow Diagramm of Corona Vaccination Center System",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "id": 0,
+        "title": "New STRIDE diagram",
+        "diagramType": "STRIDE",
+        "placeholder": "New STRIDE diagram description",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.2.0",
+        "cells": []
+      }
+    ],
+    "diagramTop": 2,
+    "reviewer": "Peter Haidt, Jana Farag",
+    "threatTop": 0
+  }
+}
