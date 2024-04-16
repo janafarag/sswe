@@ -1,2 +1,2 @@
 # sswe
-Secure Softeare Engineering
+Secure Software Engineering
