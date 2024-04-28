@@ -19,8 +19,8 @@
         "cells": [
           {
             "position": {
-              "x": 1080,
-              "y": 30.00000000000111
+              "x": 1035,
+              "y": 40
             },
             "size": {
               "width": 410,
@@ -269,8 +269,8 @@
             },
             "vertices": [
               {
-                "x": 970,
-                "y": 129
+                "x": 920,
+                "y": 138.9999999999989
               }
             ]
           },
@@ -306,15 +306,15 @@
               "threats": []
             },
             "id": "29cf2001-3ce9-4df1-8cec-387016430fef",
+            "labels": [
+              "Response"
+            ],
             "source": {
               "cell": "c73562d4-4786-4ab3-a5e3-8a234899fa9b"
             },
             "target": {
               "cell": "7782d98d-b2d5-49fa-8742-5ace3a7640ff"
             },
-            "labels": [
-              "Response"
-            ],
             "vertices": [
               {
                 "x": 250,
@@ -433,15 +433,15 @@
               "threats": []
             },
             "id": "9524c4cf-9848-43cc-91b3-6e96046a6975",
+            "labels": [
+              "Log"
+            ],
             "source": {
               "cell": "c73562d4-4786-4ab3-a5e3-8a234899fa9b"
             },
             "target": {
               "cell": "b35aed52-9fb8-4dde-ad59-4debce5714d0"
-            },
-            "labels": [
-              "Log"
-            ]
+            }
           },
           {
             "shape": "flow",
@@ -475,15 +475,15 @@
               "threats": []
             },
             "id": "eaed7e05-505d-41de-b236-2a71a7339233",
+            "labels": [
+              "Log"
+            ],
             "source": {
               "cell": "5293512c-27b4-4659-a495-03bae8a62801"
             },
             "target": {
               "cell": "b35aed52-9fb8-4dde-ad59-4debce5714d0"
-            },
-            "labels": [
-              "Log"
-            ]
+            }
           },
           {
             "shape": "flow",
@@ -517,15 +517,15 @@
               "threats": []
             },
             "id": "90777f45-2069-4737-a83a-ad41509f981c",
+            "labels": [
+              "Log"
+            ],
             "source": {
               "cell": "286f0c72-21d5-48a4-ae47-2e4827009e0a"
             },
             "target": {
               "cell": "b35aed52-9fb8-4dde-ad59-4debce5714d0"
-            },
-            "labels": [
-              "Log"
-            ]
+            }
           },
           {
             "shape": "flow",
@@ -559,23 +559,31 @@
               "threats": []
             },
             "id": "6a97398a-4270-410c-80e5-541661df16ee",
+            "labels": [
+              "E-Mail Registration Code, Confirmation Mail"
+            ],
             "source": {
               "cell": "5293512c-27b4-4659-a495-03bae8a62801"
             },
             "target": {
               "cell": "540272fc-9a7e-4b6d-bd9b-fd35b4665b76"
             },
-            "labels": [
-              "E-Mail Registration Code, Confirmation Mail"
-            ],
             "vertices": [
               {
                 "x": 460,
                 "y": 200
               },
               {
-                "x": 280,
-                "y": 19.5
+                "x": 360,
+                "y": 120
+              },
+              {
+                "x": 410,
+                "y": 120
+              },
+              {
+                "x": 430,
+                "y": 100
               }
             ]
           },
@@ -611,27 +619,31 @@
               "threats": []
             },
             "id": "2fa9b4cb-0fb2-4f50-978c-30e7b2f4bcae",
+            "labels": [
+              "SMS Verification Request, Phone Number"
+            ],
             "source": {
               "cell": "5293512c-27b4-4659-a495-03bae8a62801"
             },
             "target": {
               "cell": "423dfd5b-cc9f-4e7f-9574-34e30405441b"
             },
-            "labels": [
-              "SMS Verification Request, Phone Number"
-            ],
             "vertices": [
               {
                 "x": 540,
                 "y": 160
               },
               {
-                "x": 730,
-                "y": 70
+                "x": 630,
+                "y": 100
               },
               {
-                "x": 630,
-                "y": 30
+                "x": 580,
+                "y": 100
+              },
+              {
+                "x": 550,
+                "y": 80
               }
             ]
           },
@@ -667,15 +679,15 @@
               "threats": []
             },
             "id": "3669e51d-fa6b-4871-a3f4-3b9e44175a4c",
+            "labels": [
+              "R/W"
+            ],
             "source": {
               "cell": "286f0c72-21d5-48a4-ae47-2e4827009e0a"
             },
             "target": {
               "cell": "0fec9fe6-d5f7-4ad3-b618-7e81b6fd11cc"
-            },
-            "labels": [
-              "R/W"
-            ]
+            }
           },
           {
             "shape": "flow",
@@ -709,6 +721,9 @@
               "threats": []
             },
             "id": "31ecc89f-330a-468c-9ce9-ee670eb527ff",
+            "labels": [
+              "Restore-Data"
+            ],
             "source": {
               "cell": "8bb81d81-f1c0-4a58-aae8-fe45dfc0a788"
             },
@@ -717,20 +732,17 @@
             },
             "vertices": [
               {
-                "x": 1110,
-                "y": 260
+                "x": 1060,
+                "y": 269.99999999999886
               },
               {
-                "x": 1040,
-                "y": 320
+                "x": 990,
+                "y": 329.99999999999886
               },
               {
-                "x": 970,
-                "y": 359
+                "x": 920,
+                "y": 368.99999999999886
               }
-            ],
-            "labels": [
-              "Restore-Data"
             ]
           },
           {
@@ -765,15 +777,15 @@
               "threats": []
             },
             "id": "88af465e-a792-4f33-9964-c9e734c11330",
+            "labels": [
+              "Restore-Data"
+            ],
             "source": {
               "cell": "d5e80acf-1ddf-424d-aa5d-77f2f0af8960"
             },
             "target": {
               "cell": "0fec9fe6-d5f7-4ad3-b618-7e81b6fd11cc"
-            },
-            "labels": [
-              "Restore-Data"
-            ]
+            }
           },
           {
             "shape": "flow",
@@ -807,15 +819,15 @@
               "threats": []
             },
             "id": "03df99ef-08f9-449c-9fcb-dd53636b1a1a",
+            "labels": [
+              "Backup-Data"
+            ],
             "source": {
               "cell": "0fec9fe6-d5f7-4ad3-b618-7e81b6fd11cc"
             },
             "target": {
               "cell": "d7b20db4-3f9c-4e25-a77e-090866300e19"
-            },
-            "labels": [
-              "Backup-Data"
-            ]
+            }
           },
           {
             "shape": "flow",
@@ -849,20 +861,20 @@
               "threats": []
             },
             "id": "54de7e22-d689-4dac-9e69-448557d1975d",
+            "labels": [
+              "Data"
+            ],
             "source": {
               "cell": "8bb81d81-f1c0-4a58-aae8-fe45dfc0a788"
             },
             "target": {
               "cell": "019f80af-4337-41d5-b2de-23afbd09c667"
-            },
-            "labels": [
-              "Data"
-            ]
+            }
           },
           {
             "position": {
-              "x": 1130,
-              "y": 85.00000000000111
+              "x": 1080,
+              "y": 95
             },
             "size": {
               "width": 110,
@@ -980,8 +992,8 @@
           },
           {
             "position": {
-              "x": 1340,
-              "y": 95.00000000000111
+              "x": 1290,
+              "y": 105
             },
             "size": {
               "width": 120,
@@ -1092,7 +1104,7 @@
           },
           {
             "position": {
-              "x": 345,
+              "x": 380,
               "y": -29.99999999999889
             },
             "size": {
@@ -1111,8 +1123,8 @@
             },
             "visible": true,
             "shape": "process",
-            "id": "540272fc-9a7e-4b6d-bd9b-fd35b4665b76",
             "zIndex": 17,
+            "id": "540272fc-9a7e-4b6d-bd9b-fd35b4665b76",
             "data": {
               "type": "tm.Process",
               "name": "Mail-Service",
@@ -1129,8 +1141,8 @@
           },
           {
             "position": {
-              "x": 465,
-              "y": -29.99999999999889
+              "x": 510,
+              "y": -69.99999999999889
             },
             "size": {
               "width": 90,
@@ -1148,8 +1160,8 @@
             },
             "visible": true,
             "shape": "process",
-            "id": "423dfd5b-cc9f-4e7f-9574-34e30405441b",
             "zIndex": 18,
+            "id": "423dfd5b-cc9f-4e7f-9574-34e30405441b",
             "data": {
               "type": "tm.Process",
               "name": "SMS-Service",
@@ -1185,8 +1197,8 @@
             },
             "visible": true,
             "shape": "process",
-            "id": "d5e80acf-1ddf-424d-aa5d-77f2f0af8960",
             "zIndex": 19,
+            "id": "d5e80acf-1ddf-424d-aa5d-77f2f0af8960",
             "data": {
               "type": "tm.Process",
               "name": "Recovery\nProcess",
