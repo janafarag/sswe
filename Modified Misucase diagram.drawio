@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-28T13:12:27.697Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="7vA_yZA41K1mNMOXC3np" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-28T13:16:15.596Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="lkGIy9_qh9BufsGkosdP" version="24.3.1" type="github">
   <diagram name="Page-1" id="eIXFkq-dwK1VUDYg19JS">
     <mxGraphModel dx="1987" dy="1729" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -514,7 +514,7 @@
         <mxCell id="ZL6rJkev4Y_4mScAFY92-66" value="Session (Cookies or Tokens) Hijacking" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="-40" y="-250" width="180" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="ZL6rJkev4Y_4mScAFY92-67" value="Session (Cookies or Tokens) Hijacking" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="ZL6rJkev4Y_4mScAFY92-67" value="CSRF" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="-40" y="-185" width="180" height="50" as="geometry" />
         </mxCell>
       </root>
