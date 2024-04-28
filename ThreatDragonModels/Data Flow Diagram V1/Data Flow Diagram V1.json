@@ -44,7 +44,7 @@
           },
           {
             "position": {
-              "x": 219.99999999999864,
+              "x": 215,
               "y": 175
             },
             "size": {
@@ -223,7 +223,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Input Data, \nReg.Code, Verif. Code\n",
+              "name": "Input Data, \nReg.Code, Verif. Code,\n",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -236,7 +236,7 @@
             },
             "id": "83ea2bd5-170f-45ba-b4ae-fc6d7a6a8286",
             "labels": [
-              "Input Data, \nReg.Code, Verif. Code\n"
+              "Input Data, \nReg.Code, Verif. Code,\n"
             ],
             "source": {
               "cell": "7782d98d-b2d5-49fa-8742-5ace3a7640ff"
@@ -246,7 +246,11 @@
             },
             "vertices": [
               {
-                "x": 240,
+                "x": 250,
+                "y": 360
+              },
+              {
+                "x": 300,
                 "y": 360
               }
             ]
@@ -886,6 +890,54 @@
             },
             "labels": [
               "Restore-Data"
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Log-In,\nAppointment-Validation",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "59097b02-188a-4d54-9807-9e231488415e",
+            "source": {
+              "cell": "7782d98d-b2d5-49fa-8742-5ace3a7640ff"
+            },
+            "target": {
+              "cell": "c73562d4-4786-4ab3-a5e3-8a234899fa9b"
+            },
+            "vertices": [
+              {
+                "x": 230,
+                "y": 440
+              }
+            ],
+            "labels": [
+              "Log-In,\nAppointment-Validation"
             ]
           },
           {
