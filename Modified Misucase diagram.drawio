@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-28T13:16:15.596Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="lkGIy9_qh9BufsGkosdP" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-28T13:30:31.847Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="YlTf72lvLgWx3NYOHptu" version="24.3.1" type="github">
   <diagram name="Page-1" id="eIXFkq-dwK1VUDYg19JS">
-    <mxGraphModel dx="1987" dy="1729" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1987" dy="1722" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -143,8 +143,8 @@
         <mxCell id="i41sHxnVRbA9VFk4M2wQ-32" value="**Der Einfachheit halber werden hier alle Arten von Injection zusammengefasst (XSS, XPath, XXE, SQL)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="120" y="940" width="580" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="i41sHxnVRbA9VFk4M2wQ-50" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;* Use the latest version of TLS and enforce HSTS&lt;/div&gt;&lt;div&gt;** IDOR includes Path Traversal Attacks&lt;/div&gt;***Brute Force Attacks include Brute Forcing Passwords, Dictionary Attacks, Fuzzing Attacks" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-570" y="2040" width="510" height="70" as="geometry" />
+        <mxCell id="i41sHxnVRbA9VFk4M2wQ-50" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;* Use the latest version of TLS and enforce HSTS&lt;/div&gt;&lt;div&gt;** IDOR includes Path Traversal Attacks&lt;/div&gt;***Brute Force Attacks include Brute Forcing Passwords, Dictionary Attacks, Fuzzing Attacks, Using default credetials" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-640" y="2040" width="650" height="70" as="geometry" />
         </mxCell>
         <mxCell id="ZL6rJkev4Y_4mScAFY92-46" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="i41sHxnVRbA9VFk4M2wQ-64" target="i41sHxnVRbA9VFk4M2wQ-23">
           <mxGeometry relative="1" as="geometry" />
@@ -160,7 +160,7 @@
         <mxCell id="i41sHxnVRbA9VFk4M2wQ-66" value="Manipulate information" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="590" y="120" width="180" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="i41sHxnVRbA9VFk4M2wQ-67" value="Assume a different identity" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="i41sHxnVRbA9VFk4M2wQ-67" value="Assume a different identity&lt;div&gt;(Elevation of Privilege)&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="560" y="250" width="180" height="50" as="geometry" />
         </mxCell>
         <mxCell id="i41sHxnVRbA9VFk4M2wQ-68" value="Make unavailable" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -259,7 +259,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="i41sHxnVRbA9VFk4M2wQ-208" value="Input Validation" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="-310" y="1300" width="180" height="50" as="geometry" />
+          <mxGeometry x="-310" y="1240" width="180" height="50" as="geometry" />
         </mxCell>
         <mxCell id="i41sHxnVRbA9VFk4M2wQ-219" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="i41sHxnVRbA9VFk4M2wQ-211" target="i41sHxnVRbA9VFk4M2wQ-202" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -321,7 +321,7 @@
         </mxCell>
         <mxCell id="ZL6rJkev4Y_4mScAFY92-27" value="&amp;lt;&amp;lt;prevents&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="ZL6rJkev4Y_4mScAFY92-24">
           <mxGeometry x="0.6513" y="2" relative="1" as="geometry">
-            <mxPoint x="-1" y="5" as="offset" />
+            <mxPoint x="9" y="5" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="i41sHxnVRbA9VFk4M2wQ-226" value="Rate limiting" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
@@ -429,9 +429,9 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ZL6rJkev4Y_4mScAFY92-3" value="Output Encoding" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="-310" y="1230" width="180" height="50" as="geometry" />
+          <mxGeometry x="-310" y="1190" width="180" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="ZL6rJkev4Y_4mScAFY92-5" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="ZL6rJkev4Y_4mScAFY92-4" target="ZL6rJkev4Y_4mScAFY92-1">
+        <mxCell id="ZL6rJkev4Y_4mScAFY92-5" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;fillColor=#d5e8d4;strokeColor=#82b366;dashed=1;" edge="1" parent="1" source="ZL6rJkev4Y_4mScAFY92-4" target="ZL6rJkev4Y_4mScAFY92-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZL6rJkev4Y_4mScAFY92-6" value="&amp;lt;&amp;lt;prevents&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="ZL6rJkev4Y_4mScAFY92-5">
@@ -440,7 +440,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ZL6rJkev4Y_4mScAFY92-4" value="Indirect Object Ref" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="-310" y="1160" width="180" height="50" as="geometry" />
+          <mxGeometry x="-310" y="1140" width="180" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ZL6rJkev4Y_4mScAFY92-7" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.022;entryY=0.64;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;dashed=1;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="i41sHxnVRbA9VFk4M2wQ-208" target="ZL6rJkev4Y_4mScAFY92-1">
           <mxGeometry relative="1" as="geometry" />
@@ -502,7 +502,7 @@
             <mxPoint x="-6" y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZL6rJkev4Y_4mScAFY92-58" value="Assume a different identity" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="ZL6rJkev4Y_4mScAFY92-58" value="Assume a different identity&lt;br&gt;(Elevation of Privilege)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="-40" y="-390" width="180" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ZL6rJkev4Y_4mScAFY92-60" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;fontSize=12;startSize=8;endSize=8;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="ZL6rJkev4Y_4mScAFY92-59" target="ZL6rJkev4Y_4mScAFY92-58">
@@ -516,6 +516,18 @@
         </mxCell>
         <mxCell id="ZL6rJkev4Y_4mScAFY92-67" value="CSRF" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="-40" y="-185" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZL6rJkev4Y_4mScAFY92-68" value="Phishing" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="140" y="-220" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZL6rJkev4Y_4mScAFY92-71" value="credetial theft" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="80" y="-480" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZL6rJkev4Y_4mScAFY92-74" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;fillColor=#d5e8d4;strokeColor=#82b366;dashed=1;" edge="1" parent="1" source="ZL6rJkev4Y_4mScAFY92-73" target="i41sHxnVRbA9VFk4M2wQ-204">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZL6rJkev4Y_4mScAFY92-73" value="Invalidation of default credentials" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-470" y="1280" width="180" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
